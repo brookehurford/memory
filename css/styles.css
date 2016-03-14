@@ -1,5 +1,6 @@
 .cardGrid {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -7,12 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   border: 1px solid darkcyan;
+  background: darkcyan;
 }
 
 .card i {
-  font-size: 30px;
-  color: darkcyan;
+  font-size: 60px;
+  color: white;
 }
